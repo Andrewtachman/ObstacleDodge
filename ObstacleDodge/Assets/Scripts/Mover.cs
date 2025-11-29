@@ -4,9 +4,9 @@ public class Mover : MonoBehaviour
 {
 
 
-    float xValue = 0f;
-    float yValue = 0.05f;
-    float zValue = 0f;
+    [SerializeField] float xValue = 0f;
+    [SerializeField] float yValue = 0f;
+    [SerializeField] float zValue = 0f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
